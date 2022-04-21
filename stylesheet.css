@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #fef0a5;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e3b18b;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #e3b18b;
+    /* creates padding around scroll thumb */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background-image: linear-gradient(#fef0a5, #e3b18b);
+}
+
+header {
+    display: flex;
+    background: #f8d28b;
+}
+
+.logo {
+    width: 5em;
+    height: 5em;
+    border: #f8d28b dotted;
+    border-radius: 100px;
+    background: #e3b18b;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100em;
+
+}
+
+.navitems {
+    font-size: 40px;
+    border: #f8d28b dotted;
+    color: #a78d9e;
+    background-color: #e3b18b;
+    border-radius: 5em;
+}
+
+.fotoingredientes {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+
+}
+
+.foto1 {
+    border-radius: 10em;
+    border: #f8d28b dashed;
+}
+
+
+
+.ingredientes {
+    display: flex;
+    width: 20em;
+    padding-left: 100px;
+    border: #f8d28b dotted;
+    border-radius: 20em;
+    padding-right: 67.4em;
+    background: #fef0a5;
+}
+
+.preparo {
+    padding-left: 100px;
+    padding-top: 20px;
+    margin-bottom: 5em;
+    border: #f8d28b dotted;
+    border-radius: 20em;
+    margin-top: 2em;
+    background: #fef0a5;
+}
+
+.titulorec {
+    color: #a78d9e;
+}
+
+ol,
+ul {
+    margin: 2em;
+    color: #74819d;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+
+iframe {
+    border-radius: 2em;
+    border: #fef0a5 dashed;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+
+footer {
+
+    background: #fef0a5;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    color: #74819d;
+    font-size: 2em;
+}
+
+@media (max-width: 600px) {
+    .facet_sidebar {
+        display: flex;
+    }
+}
